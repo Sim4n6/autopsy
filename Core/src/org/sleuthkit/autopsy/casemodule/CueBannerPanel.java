@@ -134,7 +134,10 @@ public class CueBannerPanel extends javax.swing.JPanel {
 
         newCaseButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/sleuthkit/autopsy/casemodule/btn_icon_create_new_case.png"))); // NOI18N
         newCaseButton.setText(org.openide.util.NbBundle.getMessage(CueBannerPanel.class, "CueBannerPanel.newCaseButton.text")); // NOI18N
-        newCaseButton.setBorder(null);
+        
+        Border newCaseBorder = BorderFactory.createRaisedBevelBorder();
+        newCaseButton.setBorder(newCaseBorder);
+        
         newCaseButton.setBorderPainted(false);
         newCaseButton.setContentAreaFilled(false);
         newCaseButton.setPreferredSize(new java.awt.Dimension(64, 64));
@@ -146,7 +149,10 @@ public class CueBannerPanel extends javax.swing.JPanel {
 
         openRecentCaseButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/sleuthkit/autopsy/casemodule/btn_icon_open_recent.png"))); // NOI18N
         openRecentCaseButton.setText(org.openide.util.NbBundle.getMessage(CueBannerPanel.class, "CueBannerPanel.openRecentCaseButton.text")); // NOI18N
-        openRecentCaseButton.setBorder(null);
+        
+        Border openRecentCaseBorder = BorderFactory.createRaisedBevelBorder();
+        openRecentCaseButton.setBorder(openRecentCaseBorder);
+        
         openRecentCaseButton.setBorderPainted(false);
         openRecentCaseButton.setContentAreaFilled(false);
         openRecentCaseButton.setPreferredSize(new java.awt.Dimension(64, 64));
@@ -164,7 +170,10 @@ public class CueBannerPanel extends javax.swing.JPanel {
 
         openCaseButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/sleuthkit/autopsy/casemodule/btn_icon_open_existing.png"))); // NOI18N
         openCaseButton.setText(org.openide.util.NbBundle.getMessage(CueBannerPanel.class, "CueBannerPanel.openCaseButton.text")); // NOI18N
-        openCaseButton.setBorder(null);
+        
+        Border openCaseBorder = BorderFactory.createRaisedBevelBorder();
+        openCaseButton.setBorder(openCaseBorder);
+        
         openCaseButton.setBorderPainted(false);
         openCaseButton.setContentAreaFilled(false);
         openCaseButton.setMargin(new java.awt.Insets(1, 1, 1, 1));
